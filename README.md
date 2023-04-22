@@ -58,10 +58,12 @@ Let's finally get into it!  This section will walk you through installing an OS,
    ```shell
    ssh <username>@<hostname or IP>
 
-   # For example, if your username was foo and your Pi's hostname was minepi, the command would bekkjhkhkjhkjhkhkjhkjhkjhkjhkjhkjhkjhkjhkjhkjhkj:
+   # For example, if your username was foo and your Pi's hostname was minepi, the command would be:
    ssh foo@minepi
    ```
    Where username and hostname are what you set in step 4.  Now here's the thing.  Sometimes, you won't be able to reach the Pi via its hostname.  This could be for a variety of reasons, and may change once your Pi has been running for a bit.  Regardless, if you cannot login via hostname, try using the actual IP address of your Pi.  There are many ways to do this, for example you could login to your router's management interface and look there.  I usually use the Fing app you can get on your phone, which will scan all the devices on your network.  Just look for the entry that is your Pi and you will have your IP.  
 
    Once you successfully connect, say yes to the fingerprinting question.  Then you will be prompted for a password.  Enter the password you set in step 4.  Remember, on Unix machines, typing a password in the terminal will not make anything actually appear.  You are typing though.  If everything worked, you should now be in your Pi!
+
+7. 
 
